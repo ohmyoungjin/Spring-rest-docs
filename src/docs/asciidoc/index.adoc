@@ -7,9 +7,9 @@ backtony.github.io(부제)
 :toclevels: 2
 :sectlinks:
 
-[[Member-API]]
-== Member API
+[[Book-API]]
+== Book API
 
-[[Member-단일-조회]]
-=== Member 단일 조회
+[[Book-단일-조회]]
+=== Book 단일 조회
 operation::index[snippets='http-request,path-parameters,http-response,response-fields']
