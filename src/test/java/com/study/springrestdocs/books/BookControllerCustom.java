@@ -21,7 +21,7 @@ public class BookControllerCustom extends RestDocsTestSupport {
                 )
                 .andExpect(status().isOk())
                 .andDo( //rest docs 문서서 작성 시작
-                        restDocs.document( // RestDocsConfig 에서 주입 받아서 class/method name 으로  build/generated-snippets/ 밑에 경로에 조각이 생기게 된다
+                        restDocs.document( // RestDocsConfig 에서 주입 받아서 class/method name 으로  build/generated-snippets/ 밑에 경로에 조각이 생기게 된다 상속 받았기 때문에 사용 가능
                                 pathParameters( //path param 정보 입력
                                         parameterWithName("id").description("bookId")
                                 ),

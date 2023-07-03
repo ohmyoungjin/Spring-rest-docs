@@ -29,7 +29,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 public class RestDocsTestSupport extends ControllerTest {
 
     @Autowired
-    protected RestDocumentationResultHandler restDocs;
+    protected RestDocumentationResultHandler restDocs; //RestDocsConfig 에서 custom 한 bean 을 주입 받아서 사용한다.
 
     @BeforeEach
     void setUp(final WebApplicationContext context,

@@ -21,6 +21,7 @@ public abstract class ControllerTest {
 
     //@MockBean protected TestRepso testRepso; mock bean 으로 주입 받을 repo 설정
 
+
     protected String createJson(Object dto) throws JsonProcessingException {
         return objectMapper.writeValueAsString(dto);
     }
